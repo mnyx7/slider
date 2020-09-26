@@ -1,0 +1,42 @@
+{"slider":[
+	{
+		"image": "audi.jpg",
+		"text": {
+			"h1": "AUDI",
+			"p": "Vorsprung durch Technik"
+		},
+		"url": "https://www.audi.com/en.html"
+	},
+	{
+		"image": "mercedes.jpg",
+		"text": {
+			"h1": "Mercedes",
+			"p": "The best or nothing"
+		},
+		"url": "https://www.mercedes-benz.com/en/"
+	},
+	{
+		"image": "bmw.jpg",
+		"text": {
+			"h1": "BMW",
+			"p": "Sheer Driving Pleasure"
+		},
+		"url": "https://www.bmw.com/en/index.html"
+	},
+	{
+		"image": "jaguar.jpg",
+		"text": {
+			"h1": "Jaguar",
+			"p": "Grace, Space, Pace"
+		},
+		"url": "http://president.az"
+	},
+	{
+		"image": "tesla.jpg",
+		"text": {
+			"h1": "Tesla",
+			"p": "To accelerate the advent of sustainable transport"
+		},
+		"url": "https://www.tesla.com/"
+	}
+]}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway:wght@100&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 30px 0 0 0;
+  background-color: #d6e0f0;
+}
+h1{
+   font-family: 'Dancing Script', cursive;
+}
+p{
+  font-family: 'Raleway', sans-serif;
+}
+.slider {
+  position: relative;
+  box-shadow: 0 0 15px 5px #8d93ab;
+  background-color: rgba(0, 0, 0, .4);
+}
+.slide, .slider {
+  margin: auto;
+  width: 60vw;
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.title {  
+  position: absolute;
+  backdrop-filter: blur(7px) ;
+  background-color: #000;
+  opacity: .5;
+  width: 58vw;
+  height: 100px;
+  text-align: center;
+  padding: 20px 40px;
+  color: #fff;
+  border-radius: 10px;
+  left: 1vw;
+  bottom: 1vw;
+}
+a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+}
+.fa{
+  color: #fff;
+}
+.fa:hover{
+  opacity: .7;
+}
+.fa:active{
+  font-size: 20px;
+}
+
+.nav {
+  position: absolute;
+  bottom: 0px;
+  left: 43%;
+  margin: auto;
+
+}
+.dots {
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+}
+.dots>div {
+  margin: 0 5px 5px 0;
+  background-color: #8d93ab;
+  border-radius: 50%;
+  color: transparent;
+}
+.dots>div, .left, .right {
+  width: 20px;
+  height: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font: 600 1em;
+}
+@media screen and (max-width: 800px) {
+  .slider, .slide {width: 80vw;}
+  .title {width: 78vw; padding: 15px;}
+}
+
+@media screen and (max-width: 400px) {
+  .slider, .slide {width: 95vw; height: 60vh;}
+  .title {width: 93vw; padding: 12px;}
+}
