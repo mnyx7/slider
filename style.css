@@ -75,7 +75,7 @@ a {
   border-radius: 50%;
   color: transparent;
 }
-.dots>div, .left, .right {
+.dots>div{
   width: 20px;
   height: 20px;
   border: none;
@@ -89,6 +89,7 @@ a {
 }
 
 @media screen and (max-width: 400px) {
+  .nav{left: 33%;}
   .slider, .slide {width: 95vw; height: 60vh;}
   .title {width: 93vw; padding: 12px;}
 }
